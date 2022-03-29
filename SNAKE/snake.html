@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <!--<script type="text/javascript" src="jquery-2.2.4.min.js"></script>-->
+    <script type="text/javascript" src="snake.js"></script>
+
+</head>
+<body>
+	<div style="display:none;">
+		<img id="snakeIcon"
+			src="icon.png"
+			width="300" height="227">
+	</div>
+    <div style="text-align:center; cursor: default;">
+        <div style="font-size: 30px; font-weight: bold">SNAKE</div>
+        <div>HISSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</div>
+        <div>
+            If you lose...<br />
+			It bites you...<br />
+			And you die in real life!!!!!!!!!!!
+        </div>
+    </div>
+    <div align="center">
+        <canvas id="myCanvas" ></canvas>
+    </div>
+    <div align="center">
+        <label>Game Mode:
+            <select id="gameMode" class="setting">
+                <option value="classic" selected="selected">Classic</option>
+                <option value="infinite">Infinite</option>
+            </select>
+        </label>
+	</div>
+	<div style="text-align: center; font-size: 20px">
+		<button onclick = "start();">START!</button>
+    </div>
+</body>
+</html>

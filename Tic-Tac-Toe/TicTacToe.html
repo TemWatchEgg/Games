@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <!--<script type="text/javascript" src="jquery-2.2.4.min.js"></script>-->
+    <script type="text/javascript" src="TicTacToe.js"></script>
+</head>
+<body>
+	<div style="text-align: center; user-select:none">
+		<div style="font-size: 40px; font-weight: bold">Tic-Tac-Toe</div>
+		<br />
+		<div style="font-size: 40px; font-weight: bold; font-family: Courier">
+			<span id="g00" onclick="userClick(0,0)"></span> <span id="g01" onclick="userClick(0,1)"></span> <span id="g02" onclick="userClick(0,2)"></span><br />
+			<span id="g10" onclick="userClick(1,0)"></span> <span id="g11" onclick="userClick(1,1)"></span> <span id="g12" onclick="userClick(1,2)"></span><br />
+			<span id="g20" onclick="userClick(2,0)"></span> <span id="g21" onclick="userClick(2,1)"></span> <span id="g22" onclick="userClick(2,2)"></span>
+		</div>
+		<br />
+		<div id="message"></div>
+		<br />
+		<div id="error"></div>
+		<div id="end" style="font-size: 20px; font-weight: bold"></div>
+		<br />
+		<div id="restart" onclick="reset()" style="font-size: 15px; visibility: hidden">RESTART</div>
+	</div>
+</body>
+</html>
