@@ -153,7 +153,8 @@ function doorwayDesc() {
 		this.findItemNamed("door").state == "closed" 
 		? "There is a large door blocking the path to the south." 
 		: "A large door stands open to the south."
-	)
+	);
+	return(statueString + doorString);
 }
 
 function lookHole() {
