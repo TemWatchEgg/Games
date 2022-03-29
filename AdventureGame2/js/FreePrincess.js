@@ -154,7 +154,7 @@ function doorwayDesc() {
 		? "There is a large door blocking the path to the south." 
 		: "A large door stands open to the south."
 	);
-	return(statueString + doorString);
+	return(doorString + statueString);
 }
 
 function lookHole() {
