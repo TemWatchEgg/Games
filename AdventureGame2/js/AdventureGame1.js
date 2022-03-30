@@ -430,7 +430,7 @@ function useSomething(thing1, thing2) {
 
 function cheatSomething() {
 	gameMessage += "Cheat function for debugging purposes";
-	player.location = cheat.location;
+	movePlayer(cheat.location);
 	for (i in cheat.thingsToPutInSack) {
 		var item = cheat.thingsToPutInSack[i];
 		player.sack.addItem(item);
