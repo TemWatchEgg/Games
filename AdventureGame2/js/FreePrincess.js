@@ -182,7 +182,6 @@ function useRock() {
 function useRockOn(thing) {
 	if (this.state == "magic" && player.location.findItemNamed("statue") && thing.name == "statue") {
 		gameMessage += "You give the statue of a dog a statue of a donut and it has a statue of a snack. <br>Your statue of a score has increased by a statue of a point.";
-		this.remove();
 	} else if (player.location.findItemNamed("door") && thing.name == "door" && !thing.location.findItemNamed("statue")) {
 		if (this.state == "magic") {
 			gameMessage += "You test the rock in the hole. <br>It fits perfectly! <br>The door mysteriously opens.";
