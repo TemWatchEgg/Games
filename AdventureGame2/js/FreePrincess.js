@@ -212,7 +212,7 @@ function useDoor() {
 }
 
 function goThroughDoor(theExit) {
-	if (this.state == "closed" && theExit.destination.name == "stream") {
+	if (this.state == "closed" && theExit.destination.name == "path") {
 		gameMessage += "The door is blocking the path forward.";
 		return(true);
 	}
