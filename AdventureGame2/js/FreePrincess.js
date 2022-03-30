@@ -84,9 +84,9 @@ function putInHole(thing) {
 	} else if (thing.name == "door") {
 		gameMessage += "It's stuck in the ground.";
 	} else if (thing.name == "sign") {
+		thing.location.description = "The sign is gone. <br>Unfortunately, there really is nothing over here. <br>Sorry!";
 		getAreaByName("hole").addItem(thing);
 		gameMessage += "You put the " + thing.name + " in the hole.";
-		thing.location.description = "The sign is gone. <br>Unfortunately, there really is nothing over here. <br>Sorry!";
 	} else {
 		getAreaByName("hole").addItem(thing);
 		gameMessage += "You put the " + thing.name + " in the hole.";
