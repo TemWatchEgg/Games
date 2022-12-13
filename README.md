@@ -1,6 +1,7 @@
 
 <h1>Games</h1>
 
-This is where I put the games I make.
-To play them, go to <a href="https://temwatchegg.github.io/Games/" target="_blank">Github Pages</a>.
+This is where I put the games I make. 
+<br> <!-- PROBLEM: link does not open in new tab? I have no idea why... --> <br>
+To play them, go to <a href="https://temwatchegg.github.io/Games/" target="_blank">Github Pages</a>. 
 
